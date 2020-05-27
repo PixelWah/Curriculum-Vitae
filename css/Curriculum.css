@@ -1,0 +1,221 @@
+html {
+	background: rgb(20, 20, 20);
+	background-image: url("../images/Wire.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 25%;
+	color: white;
+
+
+}
+
+body {
+
+	font-family: Oswald-Medium;
+}
+
+.banniere
+{
+     background-image: url("../images/zwingz.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+	 padding-bottom: 5%;
+	 padding-top: 1%;
+	 text-align: center;
+	 background-position: relative;
+	 background-size: cover;
+	 text-shadow: 2px 2px black;
+	 box-shadow: 11px 33px 31px 0px rgba(0,0,0,0.75);
+	 font-size: 150%;
+}
+
+
+.pres1 {
+
+	margin-top: 5%;
+	margin-left: 2%;
+	
+}
+
+
+.pres2 {
+
+	display: flex;
+	grid-gap: 10%
+}
+
+
+
+.pic1 {
+
+	border-radius: 100%;
+}
+
+
+.Presentation {
+
+	font-size:  175%;
+	display: flex;
+	grid-gap: 25%;
+	margin-left: 12%;
+	margin-top: 5%;
+}
+
+.Description {
+
+	margin-left: 15%;
+}
+
+ul {
+
+	font-size: 150%;
+}
+
+.title {
+
+	color: rgb(0, 200, 100); 
+	font-size: 250%;
+}
+
+.exp {
+
+	list-style-type: none;
+	list-style-image: url(../images/check.png); 
+}
+
+.form {
+
+	list-style-type: none;
+	list-style-image: url(../images/Grad.png); 
+
+}
+
+
+.comp {
+
+	list-style-type: none;
+	list-style-image: url(../images/Comp.png); 
+
+}
+
+.comp2 {
+
+     list-style-image: none;
+     font-size: smaller;
+     font-style: italic;
+	
+}
+
+
+.lang {
+
+		list-style-type: none;
+	    list-style-image: url(../images/Lang.png); 
+
+}
+
+
+.game {
+
+		list-style-type: none;
+	    list-style-image: url(../images/game.png); 
+
+}
+
+li li {
+
+	list-style-image: none;
+	list-style-type: circle;
+	font-style: italic;
+}
+
+
+
+ 
+.navbar {
+  overflow: hidden;
+  background-color: rgb(50, 50, 50);
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 10;
+  box-shadow: 0px 10px 5px -1px rgba(0,0,0,0.57);
+
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.4s;
+
+
+
+
+}
+
+
+.navbar a:hover {
+  background: rgb(0, 200, 100);
+  color: black;
+}
+
+
+.main {
+  margin-top: 30px; 
+} 
+
+
+footer {
+
+	background-image: url("../images/rezwiingz.png");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+	 padding-bottom: 7%;
+	 padding-top: 4%;
+	 text-align: center;
+	 background-position: relative;
+	 background-size: cover;
+	 text-shadow: 2px 2px black;
+	 box-shadow: 11px 33px 31px 0px rgba(0,0,0,0.75);
+	 font-size: 150%;
+
+}
+
+
+footer a {
+
+ display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  border: solid;
+  margin: 15px 44% 0 44%;
+  border-radius: 25%;
+  transition: 0.1s;
+   filter: drop-shadow(2px 2px 2px black);
+ text-shadow: none
+
+
+}
+
+
+footer a:hover {
+
+	background-color: black;
+	border-color: black;
+	opacity: 0.50;
+	text-shadow: none;
+	transition: all 0.1s ease-in-out;
+}
+
+@font-face {
+    font-family: "Oswald-Medium";
+    src: url('../font/static/Oswald-Medium.ttf');
+}
+
