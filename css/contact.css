@@ -22,7 +22,7 @@ body {
 	 padding-bottom: 3%;
 	 padding-top: 5%;
 	 text-align: center;
-	 background-position: relative;
+	 background-position: center;
 	 background-size: cover;
 	 text-shadow: 2px 2px black;
 	 box-shadow: 11px 33px 31px 0px rgba(0,0,0,0.75);
@@ -121,7 +121,7 @@ footer {
 	 padding-bottom: 7%;
 	 padding-top: 5%;
 	 text-align: center;
-	 background-position: relative;
+	 background-position: center;
 	 background-size: cover;
 	 text-shadow: 2px 2px black;
 	 box-shadow: 11px 33px 31px 0px rgba(0,0,0,0.75);
