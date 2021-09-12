@@ -41,7 +41,9 @@ body {
 .pres2 {
 
 	display: flex;
-	grid-gap: 10%
+	grid-gap: 10%;
+	margin-right: 20%;
+
 }
 
 
@@ -49,6 +51,7 @@ body {
 .pic1 {
 
 	border-radius: 100%;
+	
 }
 
 
@@ -99,6 +102,15 @@ ul {
 }
 
 .comp2 {
+
+     list-style-image: none;
+     font-size: smaller;
+     font-style: italic;
+	
+}
+
+
+.comp3 {
 
      list-style-image: none;
      font-size: smaller;
